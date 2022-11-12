@@ -15,4 +15,10 @@ Mainly for `Clash` and related custom settings
 
 ---------------------------
 ## Other system versions link
-1.
+1.Windows check: [ClashN](https://github.com/2dust/clashN/releases) download the `.zip` file
+
+2.MacOS check: [ClashX](https://github.com/yichengchen/clashX/releases) download the `.dmg` file
+
+3.IOS check: [Stash](https://apps.apple.com/tw/app/stash)
+
+3.Android check: [Clash(Google Play)](https://play.google.com/store/apps/details?id=com.github.kr328.clash&hl=zh&gl=US&pli=1)
