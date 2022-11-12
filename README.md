@@ -19,6 +19,6 @@ Mainly for `Clash` and related custom settings
 
 2.MacOS check: [ClashX](https://github.com/yichengchen/clashX/releases) download the `.dmg` file
 
-3.IOS check: [Stash](https://apps.apple.com/tw/app/stash/id1596063349)
+3.IOS check: [Stash](https://apps.apple.com/tw/app/stash/id1596063349) installer
 
-3.Android check: [Clash(Google Play)](https://play.google.com/store/apps/details?id=com.github.kr328.clash&hl=zh&gl=US&pli=1)
+3.Android check: [Clash(Google Play)](https://play.google.com/store/apps/details?id=com.github.kr328.clash&hl=zh&gl=US&pli=1) installer
