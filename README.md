@@ -13,7 +13,7 @@ Mainly for `Clash` and related custom settings
 
 `gzip -d` && `chmod +x` Unzip and authorize
 
-2.Good-looking visual version, click: [`yacd(haishanh) for Clash`](https://github.com/haishanh/yacd/releases/) download the **tar.xz** file
+2.Good-looking visual version, click: [`yacd(haishanh) for Clash`](https://github.com/haishanh/yacd/releases/) download the ==tar.xz== file
 
 `tar -xvJf` && `mv dashboard` Unzip and rename
 
