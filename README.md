@@ -13,7 +13,7 @@ Mainly for `Clash` and related custom settings
 
 `gzip -d` && `chmod +x` Unzip and authorize
 
-2.Good-looking visual version, click: [`yacd(haishanh) for Clash`](https://github.com/haishanh/yacd/releases/) download the _tar.xz_ file
+2.Good-looking visual version, click: [`yacd(haishanh) for Clash`](https://github.com/haishanh/yacd/releases/) download the **tar.xz** file
 
 `tar -xvJf` && `mv dashboard` Unzip and rename
 
@@ -28,6 +28,7 @@ save and `./clash` run
     ./calsh -d        //string test current HTTP dynamic
     ./clash -d .      //and test run
     nohup ./clash &   //run in the background and output to nohup.out
+
 ---------------------------
 ## Other system versions link
 1.Windows check: [ClashN](https://github.com/2dust/clashN/releases) download the **.zip** file
