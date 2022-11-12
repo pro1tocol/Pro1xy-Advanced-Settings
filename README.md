@@ -13,7 +13,7 @@ Mainly for `Clash` and related custom settings
 
 `gzip -d` && `chmod +x` Unzip and authorize
 
-2.Good-looking visual version, click: [`yacd(haishanh) for Clash`](https://github.com/haishanh/yacd/releases/) download the `tar.xz` file
+2.Good-looking visual version, click: [`yacd(haishanh) for Clash`](https://github.com/haishanh/yacd/releases/) download the **tar.xz** file
 
 `tar -xvJf` && `mv dashboard` Unzip and rename
 
@@ -30,9 +30,9 @@ save and `./clash` run
     nohup ./clash &   //run in the background and output to nohup.out
 ---------------------------
 ## Other system versions link
-1.Windows check: [ClashN](https://github.com/2dust/clashN/releases) download the `.zip` file
+1.Windows check: [ClashN](https://github.com/2dust/clashN/releases) download the **.zip** file
 
-2.MacOS check: [ClashX](https://github.com/yichengchen/clashX/releases) download the `.dmg` file
+2.MacOS check: [ClashX](https://github.com/yichengchen/clashX/releases) download the **.dmg** file
 
 3.IOS check: [Stash(App Store)](https://apps.apple.com/tw/app/stash/id1596063349) installer
 
