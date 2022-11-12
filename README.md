@@ -20,6 +20,10 @@ Mainly for `Clash` and related custom settings
     external: 'dashboard'
 save and `./clash` run
 
+    ./clash -t        //test socks status
+    ./calsh -d        //string test current HTTP dynamic
+    ./clash -d .      //and test run
+    nohup ./clash &   //run in the background and output to nohup.out
 ---------------------------
 ## Other system versions link
 1.Windows check: [ClashN](https://github.com/2dust/clashN/releases) download the `.zip` file
