@@ -7,4 +7,5 @@ Mainly for `Clash` and related custom settings
      / ___/ __/ _ \/ /\ \ / // /  / _/ _ \/ __/  / __/ / _ `(_-</ _ \
     /_/  /_/  \___/_//_\_\\_, /  /_/ \___/_/     \__/_/\_,_/___/_//_/
                          /___/                                          
-## Chapter explanation
+## Project link
+If you haven't installed the tool yet, click: [`Clash for releases`](https://github.com/Dreamacro/clash/releases)
