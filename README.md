@@ -1,6 +1,6 @@
 # Pro1xy-Advanced-Settings
 ---------------------------
-Mainly for clash-related custom settings
+Mainly for `Clash` and related custom settings
 
        ___          ___             ___                __         __ 
       / _ \_______ <  /_ ____ __   / _/__  ____   ____/ /__ ____ / / 
