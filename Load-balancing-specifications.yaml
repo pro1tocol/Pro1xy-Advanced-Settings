@@ -1,0 +1,28 @@
+# Add to the first proxy policy group
+
+# proxy-groups:
+# - name: proxy
+#   type: select
+#   proxies: 
+    - Hash-Selection
+    - Poll-selection
+
+# Add to next agent policy group
+
+  - name: Hash-Selection
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 150
+    strategy: consistent-hashing
+    proxies:
+      - P1
+      - P2
+
+  - name: Poll-selection
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 150
+    strategy: round-robin
+    proxies:
+      - P1
+      - P2
