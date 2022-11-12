@@ -1,5 +1,6 @@
 # Pro1xy-Advanced-Settings
 ---------------------------
+
 Mainly for `Clash` and related custom settings
 
        ___          ___             ___                __         __ 
@@ -11,3 +12,7 @@ Mainly for `Clash` and related custom settings
 1.If you haven't installed the tool yet, click: [`Clash for releases`](https://github.com/Dreamacro/clash/releases) download the required version
 
 2.Good-looking visual version, click: [`yacd(haishanh) for Clash`](https://github.com/haishanh/yacd/releases/) download the `tar.xz` file
+---------------------------
+
+## Other system versions link
+1.
