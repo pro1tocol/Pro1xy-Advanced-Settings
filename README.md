@@ -10,9 +10,11 @@ Mainly for `Clash` and related custom settings
                          /___/                                          
 ## Project use for Linux
 1.If you haven't installed the tool yet, click: [`Clash for releases`](https://github.com/Dreamacro/clash/releases) download the required version
+
 `gzip -d` && `chmod +x` Unzip and authorize
 
 2.Good-looking visual version, click: [`yacd(haishanh) for Clash`](https://github.com/haishanh/yacd/releases/) download the `tar.xz` file
+
 `tar -xvJf` && `mv dashboard` Unzip and rename
 
 3.Run rules
