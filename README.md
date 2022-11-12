@@ -1,4 +1,4 @@
-# Pro1xy-Advanced-Settings
+# Pro1xy-Advanced-Settings-0.2.7
 ---------------------------
 
 Mainly for `Clash` and related custom settings
