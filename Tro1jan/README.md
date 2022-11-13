@@ -42,6 +42,7 @@
   
     systemctl status nginx.service
     systemctl start nginx.service
+    systemctl reload nginx.service
     systemctl stop nginx.service
     systemctl enable nginx.service
     systemctl disable nginx.service
