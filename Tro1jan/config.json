@@ -1,4 +1,4 @@
-# File local_address: */trojan-go
+# File local_address: /trojan
 # Thinks: Cheng Xiaobai/HaliComing/Bulianglin
 
 {
@@ -11,8 +11,8 @@
         "password-password-password-password"
     ],
     "ssl": {
-        "cert": "/root/server2.crt",
-        "key": "/root/server2.key",
+        "cert": "/trojan/server2.crt",
+        "key": "/trojan/server2.key",
         "sni": "proxy.net",
         "fallback_addr": "127.0.0.1",
         "fallback_port": 1443
@@ -22,7 +22,7 @@
         "block": [
             "geoip:private"
         ],
-        "geoip": "/root/geoip.dat",
-        "geosite": "/root/geosite.dat"
+        "geoip": "/trojan/geoip.dat",
+        "geosite": "/trojan/geosite.dat"
     }
 }
