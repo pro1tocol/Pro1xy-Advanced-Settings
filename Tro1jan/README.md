@@ -30,3 +30,20 @@
     systemctl stop ufw.service
     systemctl enable ufw.service
     systemctl disable ufw.service
+### Install web tools
+
+  1.Install and manager
+  
+    curl -o /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
+    epel-release
+    nginx
+    nginx-all-modules.noarch
+  2.Process daemon
+  
+    systemctl status nginx.service
+    systemctl start nginx.service
+    systemctl stop nginx.service
+    systemctl enable nginx.service
+    systemctl disable nginx.service
+ ------------------------   
+    
