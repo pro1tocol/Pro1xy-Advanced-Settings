@@ -54,16 +54,16 @@
      unzip
  ------------------------
  # Prepare two domain-names
+   Switch certificate issuers:
+   
+     acme.sh --set-default-ca --server letsencrypt
+     acme.sh --set-default-ca --server buypass
+     acme.sh --set-default-ca --server zerossl
  ##  Deploy tls certificate(Needs to be done without `firewall` and without `nginx` daemon)
  
      acme.sh --register-account -m your@Email.com
      acme.sh  --issue -d your-web.domain-name.com  --standalone -k ec-256
      acme.sh  --issue -d your-proxy.domain-name.com  --standalone -k ec-256
-   If the application fails, toggle:
-   
-     acme.sh --set-default-ca --server letsencrypt
-     acme.sh --set-default-ca --server buypass
-     acme.sh --set-default-ca --server zerossl
    Install and copy the certificate to the `trojan` directory certificate
    
      acme.sh --installcert -d your-web.domain-name.com --ecc  --key-file   /trojan/server1.key   --fullchain-file /trojan/server1.crt
