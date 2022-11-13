@@ -114,3 +114,8 @@
  ------------------------
  # Other commands
  
+    ps -aux
+    journalctl -l
+    journalctl -l | grep cpu
+    journalctl -u nginx.service
+    journalctl -u ufw.service
