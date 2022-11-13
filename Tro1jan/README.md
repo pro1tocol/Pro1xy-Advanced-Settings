@@ -66,8 +66,8 @@
      acme.sh --set-default-ca --server zerossl
    Install and copy the certificate to the `trojan` directory certificate
    
-     acme.sh --installcert -d your-web.domain-name.com --ecc  --key-file   */trojan/server1.key   --fullchain-file */trojan/server1.crt
-     acme.sh --installcert -d your-proxy.domain-name.com --ecc  --key-file   */trojan/server2.key   --fullchain-file */trojan/server2.crt
+     acme.sh --installcert -d your-web.domain-name.com --ecc  --key-file   /trojan/server1.key   --fullchain-file /trojan/server1.crt
+     acme.sh --installcert -d your-proxy.domain-name.com --ecc  --key-file   /trojan/server2.key   --fullchain-file /trojan/server2.crt
  ------------------------
  # Open firewall ports `80` and `443`
  
@@ -88,7 +88,7 @@
  test first running
  
     ./trojan-go
- client setting
+ `Clash` client setting
  
     proxies:
     - name: "\U0001F1ED\U0001F1F0 test | 01"
