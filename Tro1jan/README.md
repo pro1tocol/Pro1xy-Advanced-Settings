@@ -105,3 +105,12 @@
       type: select
       proxies:
     - "\U0001F1ED\U0001F1F0 test | 01"
+ Background process
+ 
+    nohup ./trojan-go > /trojan/trojan.log 2>&1 &
+ Show process
+ 
+    watch -n 1 "cat /trojan/trojan.log"
+ ------------------------
+ # Other commands
+ 
