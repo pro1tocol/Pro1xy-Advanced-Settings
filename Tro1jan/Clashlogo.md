@@ -1,0 +1,48 @@
+# Small node ID
+-----------------
+
+    \U0001F1ED\U0001F1F0   Hong Kong
+
+    \U0001F1E8\U0001F1F3   Taiwan
+
+    \U0001F1F8\U0001F1EC   Singapore
+
+    \U0001F1EF\U0001F1F5   Japan
+
+    \U0001F1FA\U0001F1F8   United States
+
+    \U0001F1E8\U0001F1E6   Canada
+
+    \U0001F1EC\U0001F1E7   United Kingdom
+
+    \U0001F1E9\U0001F1EA   Germany
+
+    \U0001F1F3\U0001F1F1   Netherlands
+
+    \U0001F1EE\U0001F1F9   Italy
+
+    \U0001F1EA\U0001F1F8   Spain
+
+    \U0001F1F9\U0001F1F7   Turkey
+
+    \U0001F1E6\U0001F1FA   Australia
+
+    \U0001F1E6\U0001F1F7   Argentina
+
+    \U0001F1E7\U0001F1F7   Brazil
+
+    \U0001F1E8\U0001F1F1   Chile
+
+    \U0001F1F0\U0001F1F7   Korea
+
+    \U0001F1EE\U0001F1F3   India
+
+    \U0001F1EE\U0001F1F1   Israel
+
+    \U0001F1F9\U0001F1ED   Thailand
+
+    \U0001F1F5\U0001F1ED   Philippines
+
+    \U0001F1E6\U0001F1EA   Dubai
+
+    \U0001F1FF\U0001F1E6   Johannesburg
