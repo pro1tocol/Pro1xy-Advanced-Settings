@@ -3,6 +3,7 @@
 
 ### install tools
 Configure the certificate in the case of having a domain name
+
   1.Install prerequisites
 
     socat
@@ -13,6 +14,7 @@ Configure the certificate in the case of having a domain name
 
     ln -s  /root/.acme.sh/acme.sh /usr/local/bin/acme.sh
 Build and manage firewall
+
   1.Install and manager
   
     ufw
