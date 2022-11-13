@@ -45,5 +45,33 @@
     systemctl stop nginx.service
     systemctl enable nginx.service
     systemctl disable nginx.service
- ------------------------   
-    
+ ### Install [trojan-go](https://github.com/p4gefau1t/trojan-go) check `releases`
+ 
+   1.Grab and compile correspond to the system version server
+   
+     wget
+     unzip
+ ------------------------
+ # Prepare two domain names
+ ##  Deploy tls certificate(Needs to be done without `firewall` and without `nginx` daemon)
+ 
+     acme.sh --register-account -m your@Email.com
+     acme.sh  --issue -d your-web.domain-name.com  --standalone -k ec-256
+     acme.sh  --issue -d your-proxy.domain-name.com  --standalone -k ec-256
+   If the application fails, toggle:
+   
+     acme.sh --set-default-ca --server letsencrypt
+     acme.sh --set-default-ca --server buypass
+     acme.sh --set-default-ca --server zerossl
+   Install and copy the certificate to the `trojan` directory certificate
+   
+     acme.sh --installcert -d your-web.domain-name.com --ecc  --key-file   */trojan/server1.key   --fullchain-file */trojan/server1.crt
+     acme.sh --installcert -d your-proxy.domain-name.com --ecc  --key-file   */trojan/server2.key   --fullchain-file */trojan/server2.crt
+ ------------------------
+ # Open firewall ports `80` and `443`
+ 
+     ufw allow 80
+     ufw allow 443
+ ------------------------
+     
+ 
