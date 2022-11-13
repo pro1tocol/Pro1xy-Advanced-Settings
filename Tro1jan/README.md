@@ -45,10 +45,11 @@
     systemctl stop nginx.service
     systemctl enable nginx.service
     systemctl disable nginx.service
- ### Install [trojan-go](https://github.com/p4gefau1t/trojan-go) check `releases`
+ ### Install [Trojan-go](https://github.com/p4gefau1t/trojan-go) check [`releases`](https://github.com/p4gefau1t/trojan-go/releases)
  
    1.Grab and compile correspond to the system version server
    
+     mkdir file && cd */file
      wget
      unzip
  ------------------------
