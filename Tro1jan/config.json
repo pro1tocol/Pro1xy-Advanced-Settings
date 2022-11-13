@@ -1,3 +1,6 @@
+# File local_address: */trojan-go
+# Thinks: Cheng Xiaobai/HaliComing/Bulianglin
+
 {
     "run_type": "server",
     "local_addr": "127.0.0.1",
