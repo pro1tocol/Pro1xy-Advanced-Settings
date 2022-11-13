@@ -95,7 +95,7 @@
       server: your-web.domain-name.com
       port: 443
       type: trojan
-      password: 
+      password: password-password-password-password
       sni: your-proxy.domain-name.com
       skip-cert-verify: false
       udp: true
