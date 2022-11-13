@@ -53,7 +53,7 @@
      wget
      unzip
  ------------------------
- # Prepare two domain names
+ # Prepare two domain-names
  ##  Deploy tls certificate(Needs to be done without `firewall` and without `nginx` daemon)
  
      acme.sh --register-account -m your@Email.com
@@ -74,5 +74,5 @@
      ufw allow 80
      ufw allow 443
  ------------------------
-     
+ # Download 
  
