@@ -1,8 +1,8 @@
 # Tro1jan build process
 ------------------------
 
-### install tools
-Configure the certificate in the case of having a domain name
+## install tools
+### Configure the certificate in the case of having a domain name
 
   1.Install prerequisites
 
@@ -13,7 +13,7 @@ Configure the certificate in the case of having a domain name
   3.Build script link
 
     ln -s  /root/.acme.sh/acme.sh /usr/local/bin/acme.sh
-Build and manage firewall
+### Build and manage firewall
 
   1.Install and manager
   
