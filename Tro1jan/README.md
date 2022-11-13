@@ -74,5 +74,8 @@
      ufw allow 80
      ufw allow 443
  ------------------------
- # Download [nginx.conf](https://github.com/pro1tocol/Pro1xy-Advanced-Settings/raw/main/Tro1jan/nginx.conf)
+ # Download [nginx.conf](https://github.com/pro1tocol/Pro1xy-Advanced-Settings/raw/main/Tro1jan/nginx.conf) overwrite saved in /etc/nginx
+ Certificate based configuration
  
+ ------------------------
+ # Download 
