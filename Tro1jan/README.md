@@ -74,12 +74,34 @@
      ufw allow 80
      ufw allow 443
  ------------------------
- # Download [`nginx.conf`](https://github.com/pro1tocol/Pro1xy-Advanced-Settings/raw/main/Tro1jan/nginx.conf) overwrite saved in /etc/nginx
+ # Download [`nginx.conf`](https://github.com/pro1tocol/Pro1xy-Advanced-Settings/raw/main/Tro1jan/nginx.conf) overwrite saved in `/etc/nginx`
  Certificate based configuration
  
  ------------------------
- # Download [`config.json`](https://github.com/pro1tocol/Pro1xy-Advanced-Settings/raw/main/Tro1jan/config.json) overwrite saved in */trojan
+ # Download [`config.json`](https://github.com/pro1tocol/Pro1xy-Advanced-Settings/raw/main/Tro1jan/config.json) overwrite saved in `*/trojan`
  Certificate based **nginx.conf** file
  
  ------------------------
- #
+ # RUN
+ ### Make sure the `ufw.service` process is active
+ ### Make sure the `nginx.service` process is active
+ test first running
+ 
+    ./trojan-go
+ client setting
+ 
+    proxies:
+    - name: "\U0001F1ED\U0001F1F0 test | 01"
+      server: your-web.domain-name.com
+      port: 443
+      type: trojan
+      password: 
+      sni: your-proxy.domain-name.com
+      skip-cert-verify: false
+      udp: true
+      
+    proxy-groups:
+    - name: proxy
+      type: select
+      proxies:
+    - "\U0001F1ED\U0001F1F0 test | 01"
