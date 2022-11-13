@@ -7,7 +7,7 @@
   1.Install prerequisites
 
     socat
-  2.Call script
+  2.Call [`ACME Shell`](https://github.com/acmesh-official/acme.sh) script
 
     curl https://get.acme.sh | sh
   3.Build script link
