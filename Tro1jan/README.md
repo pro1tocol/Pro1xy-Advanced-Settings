@@ -100,6 +100,8 @@
       network: ws
       ws-opts:
          path: /file
+         headers:
+            Host: your-proxy.domain-name.com
       sni: your-proxy.domain-name.com
       skip-cert-verify: false
       udp: true
