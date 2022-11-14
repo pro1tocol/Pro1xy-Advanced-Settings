@@ -24,5 +24,11 @@
         ],
         "geoip": "/trojan/geoip.dat",
         "geosite": "/trojan/geosite.dat"
+    },
+
+    "websocket": {
+        "enabled": true,
+        "path": "/fuckccp",
+        "hostname": "proxy.net"
     }
 }
