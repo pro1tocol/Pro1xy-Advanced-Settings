@@ -121,7 +121,7 @@
     journalctl -u nginx.service
     journalctl -u ufw.service
  ------------------------
- # Self-start [`trojan-go.service`](https://github.com/pro1tocol/Pro1xy-Advanced-Settings/raw/main/Tro1jan/trojan-go.service) saved in /etc/systemd/system
+ # Self-start [`trojan-go.service`](https://github.com/pro1tocol/Pro1xy-Advanced-Settings/raw/main/Tro1jan/trojan-go.service) saved in `/etc/systemd/system`
  
     systemctl status trojan-go.service
     systemctl start trojan-go.service
