@@ -99,7 +99,7 @@
       password: password-password-password-password
       network: ws
       ws-opts:
-         path: file
+         path: /file
       sni: your-proxy.domain-name.com
       skip-cert-verify: false
       udp: true
