@@ -93,10 +93,13 @@
  
     proxies:
     - name: "\U0001F1ED\U0001F1F0 test | 01"
-      server: your-web.domain-name.com
+      server: cdn.address.com
       port: 443
       type: trojan
       password: password-password-password-password
+      network: ws
+      ws-opts:
+         path: file
       sni: your-proxy.domain-name.com
       skip-cert-verify: false
       udp: true
