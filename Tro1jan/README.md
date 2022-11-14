@@ -120,3 +120,12 @@
     journalctl -l | grep cpu
     journalctl -u nginx.service
     journalctl -u ufw.service
+ ------------------------
+ # Self-start [trojan-go.service]()
+ 
+    systemctl status trojan-go.service
+    systemctl start trojan-go.service
+    systemctl reload trojan-go.service
+    systemctl stop trojan-go.service
+    systemctl enable trojan-go.service
+    systemctl disable trojan-go.service
