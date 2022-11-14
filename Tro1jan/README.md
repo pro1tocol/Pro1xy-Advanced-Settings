@@ -134,3 +134,10 @@
     systemctl stop trojan-go.service
     systemctl enable trojan-go.service
     systemctl disable trojan-go.service
+------------------------
+# [`Check IP tools`](https://github.com/XIU2/CloudflareSpeedTest/releases/latest)
+## [`IP-scanner list`](https://github.com/ip-scanner/cloudflare)
+unzip && open cmd: type *.txt>>all.txt
+    
+    copy all.txt /file
+    .\CloudflareST.exe
