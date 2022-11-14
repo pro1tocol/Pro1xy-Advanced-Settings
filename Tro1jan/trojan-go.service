@@ -1,0 +1,22 @@
+# Thinks: SusuDOS
+# Revise: ExecStart/ExecStop address
+# Create a file: /etc/systemd/system/trojan-go.service
+
+[Unit]
+Description=trojan-go
+Documentation=https://github.com/p4gefau1t/trojan-go
+After=network.target
+
+[Service]
+Type=simple
+StandardError=journal
+PIDFile=/usr/src/trojan/trojan/trojan.pid
+ExecStart=/trojan-go -config /config.json
+ExecReload=
+ExecStop=/root/trojan-go
+LimitNOFILE=51200
+Restart=on-failure
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target
