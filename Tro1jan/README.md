@@ -7,6 +7,10 @@
   1.Install prerequisites
 
     socat
+    cron
+    crontab
+    crontabs
+    openssl
   2.Call [`ACME Shell`](https://github.com/acmesh-official/acme.sh) script
 
     curl https://get.acme.sh | sh
