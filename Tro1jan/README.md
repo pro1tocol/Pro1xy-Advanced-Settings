@@ -17,23 +17,7 @@
   3.Build script link
 
     ln -s  /root/.acme.sh/acme.sh /usr/local/bin/acme.sh
-### Build and manage firewall
 
-  1.Install and manager
-  
-    ufw
-    ufw status
-    ufw status numbered
-    ufw delete <number>
-    ufw allow <port>
-    ufw deny <port>
-  2.Process daemon
-  
-    systemctl status ufw.service
-    systemctl start ufw.service
-    systemctl stop ufw.service
-    systemctl enable ufw.service
-    systemctl disable ufw.service
 ### Install web tools
 
   1.Install and manager
@@ -50,6 +34,23 @@
     systemctl stop nginx.service
     systemctl enable nginx.service
     systemctl disable nginx.service
+ ### Build and manage firewall
+
+  1.Install and manager
+  
+    ufw
+    ufw status
+    ufw status numbered
+    ufw delete <number>
+    ufw allow <port>
+    ufw deny <port>
+  2.Process daemon
+  
+    systemctl status ufw.service
+    systemctl start ufw.service
+    systemctl stop ufw.service
+    systemctl enable ufw.service
+    systemctl disable ufw.service
  ### Install [Trojan-go](https://github.com/p4gefau1t/trojan-go) check [`releases`](https://github.com/p4gefau1t/trojan-go/releases)
  
    1.Grab and compile correspond to the system version server
