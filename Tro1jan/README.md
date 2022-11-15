@@ -59,6 +59,11 @@
      wget
      unzip
  ------------------------
+ # Open firewall ports `80` and `443`
+ 
+     ufw allow 80
+     ufw allow 443
+ ------------------------
  # Prepare two domain-names
    Switch certificate issuers:
    
@@ -74,11 +79,6 @@
    
      acme.sh --installcert -d your-web.domain-name.com --ecc  --key-file   /trojan/server1.key   --fullchain-file /trojan/server1.crt
      acme.sh --installcert -d your-proxy.domain-name.com --ecc  --key-file   /trojan/server2.key   --fullchain-file /trojan/server2.crt
- ------------------------
- # Open firewall ports `80` and `443`
- 
-     ufw allow 80
-     ufw allow 443
  ------------------------
  # Download [`nginx.conf`](https://github.com/pro1tocol/Pro1xy-Advanced-Settings/raw/main/Tro1jan/nginx.conf) overwrite saved in `/etc/nginx`
  Certificate based configuration
