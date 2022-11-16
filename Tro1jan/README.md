@@ -44,6 +44,7 @@
     ufw delete <number>
     ufw allow <port>
     ufw deny <port>
+    ufw enable
   2.Process daemon
   
     systemctl status ufw.service
