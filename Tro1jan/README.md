@@ -82,6 +82,7 @@
  ------------------------
  # Download [`nginx.conf`](https://github.com/pro1tocol/Pro1xy-Advanced-Settings/raw/main/Tro1jan/nginx.conf) overwrite saved in `/etc/nginx`
  Certificate based configuration
+ 
  check error：
  
      /usr/sbin/nginx -t -q
