@@ -82,8 +82,17 @@
  ------------------------
  # Download [`nginx.conf`](https://github.com/pro1tocol/Pro1xy-Advanced-Settings/raw/main/Tro1jan/nginx.conf) overwrite saved in `/etc/nginx`
  Certificate based configuration
+ check error：
+ 
+     /usr/sbin/nginx -t -q
+ [emerg] getpwnam("nginx") failed
  
      useradd -s /bin/false nginx
+ [emerg] unknown directive "stream"
+ 
+     vim /etc/nginx/nginx.conf
+     [debian]: load_module /usr/lib/nginx/modules/ngx_stream_module.so;
+     [centos]: load_module '/usr/lib64/nginx/modules/ngx_stream_module.so';
  ------------------------
  # Download [`config.json`](https://github.com/pro1tocol/Pro1xy-Advanced-Settings/raw/main/Tro1jan/config.json) overwrite saved in `*/trojan`
  Certificate based **nginx.conf** file
