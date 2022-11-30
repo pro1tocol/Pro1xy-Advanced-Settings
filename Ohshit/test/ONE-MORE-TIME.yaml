@@ -7,10 +7,6 @@ log-level: info
 external-controller: '127.0.0.1:9090'
 secret: ''
 proxies:
-  - {name: 🇭🇰 MySVR | HongKong, server: shanghai.cyber-mobile.net, port: 443, type: trojan, password: 76D5B8E2-A81C-4A38-D5D6-211F922BA81A, sni: earth-file-electronic.cyber-mobile.net, skip-cert-verify: false, udp: true, network: ws, ws-opts: {path: /root/fuckccp, headers: {Host: earth-file-electronic.cyber-mobile.net}}}
-  - {name: 🇸🇬 MySVR | Singapore, server: chongqing.cyber-mobile.net, port: 443, type: trojan, password: SKD8RNO9-7SMD-9DKS-LQ78-82I29FK38SHJ, sni: chongqing-file-electronic.cyber-mobile.net, skip-cert-verify: false, udp: true, network: ws, ws-opts: {path: /justccpdie, headers: {Host: chongqing-file-electronic.cyber-mobile.net}}}
-  - {name: 🇯🇵 MySVR | Japan, server: shenzhen.cyber-mobile.net, port: 443, type: trojan, password: 53E9Z7E6-A85C-5A13-D5J8-138F212CF98A, sni: shenzhen-file-electronic.cyber-mobile.net, skip-cert-verify: false, udp: true, network: ws, ws-opts: {path: /ccpgotodie, headers: {Host: shenzhen-file-electronic.cyber-mobile.net}}}
-  - {name: 🇺🇸 MySVR | LosAngeles, server: changsha.cyber-mobile.net, port: 443, type: trojan, password: 74D7B9E1-F95C-4A55-D5D8-404F922CF41A, sni: changsha-file-electronic.cyber-mobile.net, skip-cert-verify: false, udp: true, network: ws, ws-opts: {path: /ccpshit, headers: {Host: changsha-file-electronic.cyber-mobile.net}}}
   -
     name: '🇼🇸 台湾 A01V'
     type: vmess
@@ -269,10 +265,6 @@ proxy-groups:
     type: select
     proxies:
       - '混合'
-      - '🇭🇰 MySVR | HongKong'
-      - '🇸🇬 MySVR | Singapore'
-      - '🇯🇵 MySVR | Japan'
-      - '🇺🇸 MySVR | LosAngeles'
       - '🇼🇸 台湾 A01V'
       - '🇼🇸 台湾 A02V'
       - '🇼🇸 台湾 A03V'
@@ -319,10 +311,6 @@ proxy-groups:
     interval: 250
     strategy: consistent-hashing
     proxies:
-      - '🇭🇰 MySVR | HongKong'
-      - '🇸🇬 MySVR | Singapore'
-      - '🇯🇵 MySVR | Japan'
-      - '🇺🇸 MySVR | LosAngeles'
       - '🇼🇸 台湾 A01V'
       - '🇼🇸 台湾 A02V'
       - '🇼🇸 台湾 A03V'
