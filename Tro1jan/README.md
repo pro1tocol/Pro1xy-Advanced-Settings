@@ -162,7 +162,9 @@ unzip && open cmd: type *.txt>>all.txt
 # [`Linux-cloudflarespeedtest`](https://github.com/XIU2/CloudflareSpeedTest)
 ## This tool is used to filter high-quality IP addresses
 
+    mkdir CloudflareST && cd CloudflareST
+    wget -N https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.1.0/CloudflareST_linux_amd64.tar.gz
     tar -zxf CloudflareST_linux_amd64.tar.gz
-    chmod +x CloudflareST
+    sudo chmod 777 CloudflareST
     ./CloudflareST
     ./CloudflareST -tp 443 -dd -tll 90
