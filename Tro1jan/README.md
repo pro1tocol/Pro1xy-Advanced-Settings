@@ -167,4 +167,5 @@ unzip && open cmd: type *.txt>>all.txt
     tar -zxf CloudflareST_linux_amd64.tar.gz
     sudo chmod 777 CloudflareST
     ./CloudflareST
-    ./CloudflareST -tp 443 -dd -tll 90
+    ./CloudflareST -dd -tll 90
+    ./CloudflareST -tp 443 -tll 50
