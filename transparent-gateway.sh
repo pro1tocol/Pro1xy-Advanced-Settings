@@ -1,9 +1,10 @@
 #!/bin/bash
 
-if [ iptables -L ] ; then
-  echo "iptables allready installed"
+iptables -L
+if [ $? -eq 0 ] ; then
+  echo "iptables already installed" && sleep 1s
  else
-  sudo apt install iptables* 2>/dev/null && echo "iptables install"
+  sudo apt install iptables* -y 2>/dev/null && echo "iptables install"
 if
 
 iptables -t nat -N clash
