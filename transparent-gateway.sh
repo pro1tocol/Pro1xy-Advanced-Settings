@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ iptables -L ] ; than
+if [ iptables -L ] ; then
   echo "iptables allready installed"
  else
   sudo apt install iptables* 2>/dev/null && echo "iptables install"
