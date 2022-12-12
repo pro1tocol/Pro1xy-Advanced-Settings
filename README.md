@@ -48,6 +48,6 @@ Principle analysis
 
   `Bypass-route` ===direction(gateway)===>   `Main-route`
 
-  -Bypass-route set static IP address
+   Bypass-route set static IP address
 
 |------------------------------------------------------------|
