@@ -41,5 +41,5 @@ iptables-save > /etc/iptables/rules.v4
 iptables-restore /etc/iptables/rules.v4
 
 cat /etc/iptables/rules.v4
-echo"It is working !! "
+echo "It's working !!"
 echo "Please Check !!"
