@@ -72,7 +72,7 @@ Principle analysis
 `No.3` Bypass gateway autostart
 
     cd /usr/bin
-download [clash] tool
+download [clash](https://github.com/Dreamacro/clash/releases) tool
 
     clash -t                              #test ruunning
     cd /etc/systemd/system
