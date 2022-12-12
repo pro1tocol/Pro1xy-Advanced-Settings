@@ -42,10 +42,13 @@ save and `./clash` run
 # Transparent Gateway Settings
 Principle analysis
 
-________|
+|------------------------------------------------------------|
 
-|`Main-route`   ==direction(gateway/dns)==>   `Bypass-route`
+|`Main-route`   ==direction(gateway/dns)==>   `Bypass-route` |
 
-|`Bypass-route` ===direction(gateway)===>   `Main-route`
+|`Bypass-route` ===direction(gateway)===>   `Main-route`     |
 
-|-Bypass-route set static IP address
+|-Bypass-route set static IP address                         |
+
+
+|------------------------------------------------------------|
