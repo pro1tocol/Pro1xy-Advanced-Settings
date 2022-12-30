@@ -55,7 +55,9 @@ Principle analysis
 ## Bypass settings
 
 `No.1` 
+Close DNS(53) port
 
+    systemctl disable systemd-resolved
 Start routing forwarding
 
     vim /etc/sysctl.conf
