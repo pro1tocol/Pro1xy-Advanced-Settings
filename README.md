@@ -110,7 +110,7 @@ download [Clash-Premium](https://github.com/Dreamacro/clash/releases/tag/premium
        - 8.8.8.8
     tun:
       enable: true
-      stack: system # or gvisor
+      stack: system
       dns-hijack:
        - any:53
        - tcp://any:53
