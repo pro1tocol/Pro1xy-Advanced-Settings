@@ -54,13 +54,15 @@ Principle analysis
 
 ## Bypass settings
 
-`No.1` Start routing forwarding
+`No.1` 
+
+Start routing forwarding
 
     vim /etc/sysctl.conf
     net.ipv4.ip_forward=1
     
     sysctl -p
-`No.2` Configure static IP
+Configure static IP
 
     vim /etc/network/interfaces
     # The primary network interface
@@ -69,21 +71,27 @@ Principle analysis
     address 192.168.0.104                 #set to an unassigned IP address
     netmask 255.255.255.0
     gateway 192.168.0.1                   #set as your main routing gateway
-`No.3` Bypass gateway autostart
+Configure local DNS
+
+    vim /etc/resolv.conf
+    nameserver 114.114.114.114
+    nameserver 8.8.8.8
+`No.2` Bypass gateway autostart
 
     cd /usr/bin
-download [clash](https://github.com/Dreamacro/clash/releases) tool
+download [Clash-Premium](https://github.com/Dreamacro/clash/releases/tag/premium)
 
+    gzip -d && mv
     clash -t                              #test ruunning
+    
     cd /etc/systemd/system
     wget https://github.com/pro1tocol/Pro1xy-Advanced-Settings/raw/main/clash.service
     systemctl status clash                #show status
     systemctl enable clash                #settingautostart
- `No.4` Clash configuration part
+ `No.3` Clash configuration part
  
-    cd ~/.config/clash
+    cd ~/.config/clash && vim config.yaml
     
-    vim config.yaml
     port: 5770
     socks-port: 5771
     redir-port: 5772
@@ -94,16 +102,24 @@ download [clash](https://github.com/Dreamacro/clash/releases) tool
     secret: ''
     dns:
       enable: true
-      ipv6: false
-      listen: 0.0.0.0:5358                #DNS third-party resolution
-      enhanced-mode: fake-ip              #start a fake DNS gateway
-      fake-ip-range: 198.19.0.1/24        #start fake DNS address
+      listen: 0.0.0.0:53
+      enhanced-mode: fake-ip
       nameserver:
-      - '192.168.0.1'                     #point to the main route
+       - 114.114.114.114
+      fallback:
+       - 8.8.8.8
+    tun:
+      enable: true
+      stack: system # or gvisor
+      dns-hijack:
+       - any:53
+       - tcp://any:53
+      auto-route: true
+      auto-detect-interface: true
 ## Main settings
 
 Enter DHCP server settings
 
     gateway     192.168.0.104
-    FirstDNS    198.19.0.1
-    BackupDNS   8.8.4.4
+    FirstDNS    114.114.114.114
+    BackupDNS   8.8.8.8
