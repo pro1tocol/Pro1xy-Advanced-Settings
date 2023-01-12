@@ -136,5 +136,5 @@ download [Clash-Premium](https://github.com/Dreamacro/clash/releases/tag/premium
 Enter DHCP server settings
 
     gateway     192.168.0.104
-    FirstDNS    114.114.114.114
-    BackupDNS   8.8.8.8
+    FirstDNS    192.168.0.104/223.5.5.5
+    BackupDNS   8.8.4.4
