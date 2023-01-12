@@ -105,11 +105,24 @@ download [Clash-Premium](https://github.com/Dreamacro/clash/releases/tag/premium
     dns:
       enable: true
       listen: 0.0.0.0:53
+      default-nameserver:
+       - 223.5.5.5
+       - 8.8.4.4
+      ipv6: false
       enhanced-mode: fake-ip
+      fake-ip-filter:
+       - 0.0.0.0
       nameserver:
-       - 114.114.114.114
+       - 0.0.0.0
       fallback:
-       - 8.8.8.8
+       - https://0.0.0.0/something
+      fallback-filter:
+       geoip: false
+       ipcidr:
+         - 0.0.0.0/32
+       domain:
+         - +.address.com
+         
     tun:
       enable: true
       stack: system
