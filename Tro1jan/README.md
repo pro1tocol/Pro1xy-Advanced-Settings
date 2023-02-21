@@ -163,7 +163,7 @@ unzip && open cmd: type *.txt>>all.txt
 ## This tool is used to filter high-quality IP addresses
 
     mkdir CloudflareST && cd CloudflareST
-    wget -N https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.1.0/CloudflareST_linux_amd64.tar.gz
+    wget -N https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.2.2/CloudflareST_linux_amd64.tar.gz
     tar -zxf CloudflareST_linux_amd64.tar.gz
     sudo chmod 777 CloudflareST
     ./CloudflareST
