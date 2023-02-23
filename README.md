@@ -37,8 +37,10 @@ save and `./clash` run
 
 3.IOS check: [Stash(App Store)](https://apps.apple.com/tw/app/stash/id1596063349) installer
 
-3.Android check: [Clash(Google Play)](https://play.google.com/store/apps/details?id=com.github.kr328.clash&hl=zh&gl=US&pli=1) installer
+4.Android check: [Clash(Google Play)](https://play.google.com/store/apps/details?id=com.github.kr328.clash&hl=zh&gl=US&pli=1) installer
+
 ---------------------------
+
 # Transparent Gateway Settings
 Principle analysis
 
